@@ -1,0 +1,14 @@
+body{
+    background: #F7FAFB;
+    margin: 0;
+    /* background-color: red; */
+}
+.login-form{
+    margin: auto;
+    max-width: 500px;
+    margin-top: auto;
+    /* text-align: center; */
+}
+.section{
+    margin-top: auto;
+}
