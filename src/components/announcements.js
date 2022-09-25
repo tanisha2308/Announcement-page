@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Badge from 'react-bootstrap/Badge';
 import Nav from 'react-bootstrap/Nav';
 import Modal from 'react-bootstrap/Modal';
-import React, {useState} from 'react'
+import React from 'react'
 
 function CommentBox(props) {
     return (
@@ -55,7 +55,7 @@ function AnnouncementPage() {
             <Card.Subtitle className="mb-2 text-muted" style={{...dateSize}}>{date}</Card.Subtitle>
                 <Card.Title style={{...fontSize}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Card.Title>
                 <Badge bg="" style={{...badgeText1,...badgeBg1}} >
-                    <img src='/images/bell.png' style={{...iconH, ...iconW}}></img>ANNOUNCEMENT
+                    <img src='/images/bell.png' style={{...iconH, ...iconW}} alt ='img'></img>ANNOUNCEMENT
                 </Badge>{' '}
                 <Card.Text >
                     <blockquote className="blockquote mb-0">
@@ -87,10 +87,10 @@ function AnnouncementPage() {
             <Card.Subtitle className="mb-2 text-muted" style={{...dateSize}}>{date}</Card.Subtitle>
                 <Card.Title style={{...fontSize}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Card.Title>
                     <Badge bg="" style={{...badgeText2,...badgeBg2}} >
-                        <img src='/images/star.png' style={{...iconH, ...iconW}}></img>PROMOTIONS
+                        <img src='/images/star.png' style={{...iconH, ...iconW}} alt ='img'></img>PROMOTIONS
                     </Badge>{' '}
                     <Badge bg="" style={{...badgeText1,...badgeBg1}} >
-                        <img src='/images/bell.png' style={{...iconH, ...iconW}}></img>ANNOUNCEMENT
+                        <img src='/images/bell.png' style={{...iconH, ...iconW}} alt ='img'></img>ANNOUNCEMENT
                     </Badge>{' '}
                 <Card.Text >
                     <blockquote className="blockquote mb-0">
@@ -124,8 +124,8 @@ function AnnouncementPage() {
             <div>
             <Nav defaultActiveKey="1" className="flex-column" >
                 <Nav.Link eventKey= "1" style={{color:'black'}}>ALL POSTS</Nav.Link>
-                <Nav.Link eventKey="2" style={{color:'black'}}>PROMOTIONS <img src='/images/star.png' style={{...iconH, ...iconW}}></img></Nav.Link>
-                <Nav.Link eventKey="3" style={{color:'black'}}>ANNOUNCEMENTS <img src='/images/bell.png' style={{...iconH, ...iconW}}></img></Nav.Link>
+                <Nav.Link eventKey="2" style={{color:'black'}}>PROMOTIONS <img src='/images/star.png' style={{...iconH, ...iconW}} alt ='img'></img></Nav.Link>
+                <Nav.Link eventKey="3" style={{color:'black'}}>ANNOUNCEMENTS <img src='/images/bell.png' style={{...iconH, ...iconW}} alt ='img'></img></Nav.Link>
             </Nav>
             </div>
         </div>
